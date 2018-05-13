@@ -1,0 +1,8 @@
+<div style="margin-left: 200px;">
+  <table>
+  <tr *ngFor="let task of  tasks$ | async">
+    <td>Title: {{task.title}}</td>
+    <td>Status: {{task.isDone}}</td>
+  </tr>
+  </table>
+</div>
