@@ -17,7 +17,7 @@ export class SearchResultComponent implements OnInit {
   constructor(private todoService: TodoService) { }
 
   ngOnInit() {
-    this.tasks$ = this.todoService.getTodos();
+    this.tasks$ = this.todoService.getTasks();
     
   }
 

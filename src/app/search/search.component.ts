@@ -12,7 +12,7 @@ export class SearchComponent implements OnInit {
   constructor(private todoService: TodoService) { }
 
   getTasks() {
-    this.todoService.getTasks();
+    this.todoService.getTodos();
   }
 
   ngOnInit() {
